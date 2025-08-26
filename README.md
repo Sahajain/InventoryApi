@@ -5,16 +5,16 @@ A simple RESTful API built with ASP.NET Core Web API (.NET 9) to manage products
 
 ## Features
 
-- ✅ Add, retrieve, update, and soft-delete products
-- ✅ Filter products by category
-- ✅ Search products by name or description
-- ✅ Sort products by price, name, stock, category, or creation date
-- ✅ Pagination support
-- ✅ Low-stock alerts (products with stock < 5)
-- ✅ Input validation with FluentValidation
-- ✅ Proper HTTP status codes
-- ✅ SQLite database with Entity Framework Core
-- ✅ Swagger/OpenAPI documentation
+- Add, retrieve, update, and soft-delete products
+- Filter products by category
+- Search products by name or description
+- Sort products by price, name, stock, category, or creation date
+- Pagination support
+- Low-stock alerts (products with stock < 5)
+- Input validation
+- Proper HTTP status codes
+- SQLite database with Entity Framework Core
+- Swagger/OpenAPI documentation
 
 ## Technologies Used
 
@@ -172,18 +172,9 @@ Use the included Swagger UI at `/swagger` to test all endpoints interactively.
 - **Services/**: Business logic layer
 - **Validators/**: Input validation rules
 
-## Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test your changes
-5. Submit a pull request
 
-## License
 
-This project is licensed under the MIT License.
-```
 
 ## Commands to Run
 
@@ -207,4 +198,5 @@ dotnet add package FluentValidation.DependencyInjectionExtensions
 ```bash
 dotnet run
 ```
+
 
