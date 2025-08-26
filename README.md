@@ -161,7 +161,7 @@ dotnet ef database drop
 ```
 
 ## Testing
-
+It also have the POSTMAN json file for testing
 Use the included Swagger UI at `/swagger` to test all endpoints interactively.
 
 ## Project Structure
@@ -198,5 +198,6 @@ dotnet add package FluentValidation.DependencyInjectionExtensions
 ```bash
 dotnet run
 ```
+
 
 
