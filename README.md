@@ -1,4 +1,4 @@
-```markdown
+
 # Product Inventory REST API
 
 A simple RESTful API built with ASP.NET Core Web API (.NET 9) to manage products in an inventory system.
@@ -207,3 +207,4 @@ dotnet add package FluentValidation.DependencyInjectionExtensions
 ```bash
 dotnet run
 ```
+
