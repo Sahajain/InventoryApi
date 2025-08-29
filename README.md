@@ -111,10 +111,6 @@ curl -X PUT "https://localhost:7xxx/api/products/1" \
 }'
 ```
 
-### Get Low Stock Products
-```bash
-curl "https://localhost:7xxx/api/products/low-stock"
-```
 
 ## Response Examples
 
@@ -134,18 +130,7 @@ curl "https://localhost:7xxx/api/products/low-stock"
 }
 ```
 
-### Paginated Response
-```json
-{
-  "items": [...],
-  "totalCount": 50,
-  "page": 1,
-  "pageSize": 10,
-  "totalPages": 5,
-  "hasPreviousPage": false,
-  "hasNextPage": true
-}
-```
+
 
 ## Database Commands
 
@@ -162,6 +147,7 @@ dotnet ef database drop
 
 ## Testing
 It also have the POSTMAN json file for testing
+(https://sahaj-s-team.postman.co/workspace/My-Workspace~05050fb7-7f40-4a8f-8d59-af4043b6c8ea/request/47897660-73463f71-a174-4e5a-8949-0f9578200d57?action=share&creator=47897660&ctx=documentation)
 Use the included Swagger UI at `/swagger` to test all endpoints interactively.
 
 ## Project Structure
@@ -198,6 +184,7 @@ dotnet add package FluentValidation.DependencyInjectionExtensions
 ```bash
 dotnet run
 ```
+
 
 
 
