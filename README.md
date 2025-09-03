@@ -26,8 +26,11 @@ A simple RESTful API built with ASP.NET Core Web API (.NET 9) to manage products
   
 ## Testing
 It also have the POSTMAN json file for testing
-(https://sahaj-s-team.postman.co/workspace/My-Workspace~05050fb7-7f40-4a8f-8d59-af4043b6c8ea/request/47897660-73463f71-a174-4e5a-8949-0f9578200d57?action=share&creator=47897660&ctx=documentation)
+
+https://sahaj-s-team.postman.co/workspace/My-Workspace~05050fb7-7f40-4a8f-8d59-af4043b6c8ea/collection/47897660-2781ac8d-f7d9-48a5-ba83-2cde9101c3e5?action=share&creator=47897660
+
 Use the included Swagger UI at `/swagger` to test all endpoints interactively.
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -185,6 +188,7 @@ dotnet add package FluentValidation.DependencyInjectionExtensions
 ```bash
 dotnet run
 ```
+
 
 
 
